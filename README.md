@@ -19,7 +19,7 @@ pip install pymake-cli
 ## Usage
 
 ```bash
-pymake-cli --help
+pymk --help
 ```
 
 ## Example
@@ -31,24 +31,24 @@ To use this you need to create a `.yaml` file in the root of your project.
 ### Init
     
 ```bash
-pymake-cli init <config_file_path> [-d]
+pymk init <config_file_path> [-d]
 ```
 
 ### Build
     
 ```bash
-pymake-cli build <config_file_path> [-d] [-s]
+pymk build <config_file_path> [-d] [-s]
 ```
 
 ### Run
 ```bash
-pymake-cli run <config_file_path>
+pymk run <config_file_path>
 ```
 
 ### Update
 This command will update the `.yaml` file with the current config structure.
 ```bash
-pymake-cli update <config_file_path> 
+pymk update <config_file_path> 
 ```
 
 ### Options
@@ -73,8 +73,8 @@ pip install -e .
 cd example
 
 # Run commands
-pymake-cli build
-pymake-cli run
+pymk build
+pymk run
 ```
 
 
