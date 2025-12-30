@@ -2,6 +2,9 @@
 
 Build C/C++ projects easily using YAML and Python.
 
+Important update, actually CMake is pretty cool. I use it in a few open source projects now. But this project was discontinued when I learned about SConstruct. I may work on this in the future just for the heck of it. But it's just something
+I built when I was bored.
+
 ### Why did I build this?
 I built this because I use C/C++ daily in my ecosystem. CMake is a complex and painful concept to learn. And the best part is, once you learned CMake and you can write quite complex build scripts, you still hate it. This is why PyMakeCli exists. PyMakeCli replaces CMake and allows you to worry about your projects code and not it's build script. PyMakeCli is cross-platform to the extent that the platform has Python >= 3.6 installed.
 
